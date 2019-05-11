@@ -1,0 +1,11 @@
+[package]
+name = "serde-json-core-replication"
+version = "0.1.0"
+authors = ["Paul Florence <perso@florencepaul.com>"]
+edition = "2018"
+
+[dependencies]
+serde-json-core = { git = "https://github.com/japaric/serde-json-core" }
+heapless = "0.4.2"
+serde_derive = {version="1.0", default_features = false}
+serde = {version="1.0", default_features = false}
